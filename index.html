@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- ЧЕРЕЗ CDN, ничего не качаем, загрузка происходит от ближайшего место пользователя -->
+</head>
+
+<body>
+
+
+
+   <header class="header" id="header">
+     <!--для работы с js лучше использовать другой класс(не использовать класс для стилизации) или использовать id -->
+    <div class="header-container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <a href="#">
+            <h2 class="text__logo">Logo</h2>
+          </a>
+        </div>
+        <nav class="menu" id="nav">
+
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="#" data-scroll='#header-top'>Home</a></li>
+            <li class="menu__item"><a class="menu__link" href="#" data-scroll='#about'>About</a></li>
+            <li class="menu__item"><a class="menu__link" href="#" data-scroll='#services'>Services</a></li>
+            <li class="menu__item"><a class="menu__link" href="#" data-scroll='#offers'>Offers*</a></li>
+            <li class="menu__item"><a class="menu__link" href="#" data-scroll='#contact'>Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-btn">
+          <a class="header-btn__register" href="">Register</a>
+          <a class="header-btn__sing-in" href="">Sign In</a>
+        </div>
+        <div class="menu__btn" id="navToggle">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="header-top" id="header-top">
+    <div class="container">
+      <div class="header-top__inner">
+        <div class="header-top__slider">
+          <div class="header-top__slider-item">
+            <h2 class="header-top__title">
+              We are what we do not what we say we'll do.
+            </h2>
+            <p class="header-top__subtitle">
+              Risus viverra at in lectus arcu id. Potenti diam, justo lectus mattis. A, sit duis quis turpis
+              pellentesque.
+              Purus amet, risus nisl morbi mi id.
+            </p>
+          </div>
+          <div class="header-top__slider-item">
+            <h2 class="header-top__title">
+              We are what we do not what we say we'll do.
+            </h2>
+            <p class="header-top__subtitle">
+              Risus viverra at in lectus arcu id. Potenti diam, justo lectus mattis. A, sit duis quis turpis
+              pellentesque.
+              Purus amet, risus nisl morbi mi id.
+            </p>
+          </div>
+          <div class="header-top__slider-item">
+            <h2 class="header-top__title">
+              We are what we do not what we say we'll do.
+            </h2>
+            <p class="header-top__subtitle">
+              Risus viverra at in lectus arcu id. Potenti diam, justo lectus mattis. A, sit duis quis turpis
+              pellentesque.
+              Purus amet, risus nisl morbi mi id.
+            </p>
+          </div>
+          <div class="header-top__slider-item">
+            <h2 class="header-top__title">
+              We are what we do not what we say we'll do.
+            </h2>
+            <p class="header-top__subtitle">
+              Risus viverra at in lectus arcu id. Potenti diam, justo lectus mattis. A, sit duis quis turpis
+              pellentesque.
+              Purus amet, risus nisl morbi mi id.
+            </p>
+          </div>
+          <div class="header-top__slider-item">
+            <h2 class="header-top__title">
+              We are what we do not what we say we'll do.
+            </h2>
+            <p class="header-top__subtitle">
+              Risus viverra at in lectus arcu id. Potenti diam, justo lectus mattis. A, sit duis quis turpis
+              pellentesque.
+              Purus amet, risus nisl morbi mi id.
+            </p>
+          </div>
+
+        </div>
+        <div class="header-top__btn">
+          <button class="header-top__btn-get">Get a Quote</button>
+          <button class="header-top__btn-register">Register</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-inner">
+        <div class="about__title">
+          About
+        </div>
+        <div class="about__info">
+          <div class="about__subtitle">
+            Tempor, egestas tristique mi eu vitae maecenas. Iaculis vestibulum, amet, eleifend natoque velit praesent.
+            Amet sed vivamus morbi euismod felis venenatis maecenas.
+          </div>
+          <a href="#" class="about__button">
+            Learn more
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h3 class="services__title title--style">
+      Services
+    </h3>
+    <div class="services__subtitle subtitle--style">
+      our services will enrich your lifestyle
+    </div>
+
+    <div class="services__slider-container">
+      <div class="services__slider">
+
+        <div class="services__slider-item">
+          <div class="services__slider-item__img">
+            <img src="./images/services-1.png" alt="">
+          </div>
+          <div class="services__slider-item__inner">
+            <div class="services__slider-item__name">
+              Roadside
+            </div>
+          </div>
+        </div>
+
+        <div class="services__slider-item">
+          <div class="services__slider-item__img">
+            <img src="./images/services-2.png" alt="">
+          </div>
+          <div class="services__slider-item__inner">
+            <div class="services__slider-item__name">
+              Roadside
+            </div>
+          </div>
+        </div>
+
+        <div class="services__slider-item">
+          <div class="services__slider-item__img">
+            <img src="./images/services-3.png" alt="">
+          </div>
+          <div class="services__slider-item__inner">
+            <div class="services__slider-item__name">
+              Banking
+            </div>
+          </div>
+        </div>
+
+        <div class="services__slider-item">
+          <div class="services__slider-item__img">
+            <img src="./images/services-4.png" alt="">
+          </div>
+          <div class="services__slider-item__inner">
+            <div class="services__slider-item__name">
+              Insurance
+            </div>
+          </div>
+        </div>
+
+        <div class="services__slider-item">
+          <div class="services__slider-item__img">
+            <img src="./images/services-5.png" alt="">
+          </div>
+          <div class="services__slider-item__inner">
+            <div class="services__slider-item__name">
+              Travel
+            </div>
+          </div>
+        </div>
+
+        <div class="services__slider-item">
+          <div class="services__slider-item__img">
+            <img src="./images/services-6.png" alt="">
+          </div>
+          <div class="services__slider-item__inner">
+            <div class="services__slider-item__name">
+              Home
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="offers" id="offers">
+    <h3 class="offers__title title--style">
+      Extraordinary Offers
+    </h3>
+    <div class="offers__subtitle subtitle--style">
+      offers that you can’t ignore
+    </div>
+
+    <div class="offers-container">
+      <div class="offers__inner">
+
+        <div class="offers__slider">
+          <div class="offers__slider-item">
+            <img src="./images/slider-offer.png" alt="">
+          </div>
+          <div class="offers__slider-item">
+            <img src="./images/slider-offer.png" alt="">
+          </div>
+          <div class="offers__slider-item">
+            <img src="./images/slider-offer.png" alt="">
+          </div>
+          <div class="offers__slider-item">
+            <img src="./images/slider-offer.png" alt="">
+          </div>
+          <div class="offers__slider-item">
+            <img src="./images/slider-offer.png" alt="">
+          </div>
+        </div>
+
+        <div class="offers__content">
+          <div class="offers__content-inner">
+            <h3 class="offers__content-title">
+              Theme Park
+            </h3>
+            <div class="offers__content-subtitle">
+              Penatibus risus quam risus, venenatis vitae mauris. Libero lorem urna quisque nulla scelerisque viverra
+              lorem eu.
+            </div>
+            <div class="offers__content-items">
+
+              <div class="offers__content-item">
+                <img class="offers__content-item__img" src="./images/offers-item-1.png" alt="">
+                <div class="offers__content-item-title">
+                  Universal Studio
+                </div>
+                <div class="offers__content-item-subtitle">
+                  California, USA
+                </div>
+              </div>
+
+              <div class="offers__content-item">
+                <img class="offers__content-item__img" src="./images/offers-item-2.png" alt="">
+
+                <div class="offers__content-item-title">
+                  Monashtra
+                </div>
+                <div class="offers__content-item-subtitle">
+                  Uath, USA
+                </div>
+              </div>
+
+              <div class="offers__content-item">
+
+                <img class="offers__content-item__img" src="./images/offers-item-3.png" alt="">
+
+                <div class="offers__content-item-title">
+                  Universal Studio
+                </div>
+                <div class="offers__content-item-subtitle">
+                  New York, USA
+                </div>
+              </div>
+
+              <div class="offers__content-item">
+
+                <img class="offers__content-item__img" src="./images/offers-item-4.png" alt="">
+
+                <div class="offers__content-item-title">
+                  Universal Studio
+                </div>
+                <div class="offers__content-item-subtitle">
+                  Pasific Park, San Diago
+                </div>
+              </div>
+
+              <div class="offers__content-item">
+
+                <img class="offers__content-item__img" src="./images/offers-item-5.png" alt="">
+
+                <div class="offers__content-item-title">
+                  Zippal Studio
+                </div>
+                <div class="offers__content-item-subtitle">
+                  California, USA
+                </div>
+              </div>
+
+              <div class="offers__content-item">
+
+                <img class="offers__content-item__img" src="./images/offers-item-6.png" alt="">
+
+                <div class="offers__content-item-title">
+                  Scooter Studio
+                </div>
+                <div class="offers__content-item-subtitle">
+                  Taxus, USA
+                </div>
+              </div>
+
+              <div class="offers__content-item">
+
+                <img class="offers__content-item__img" src="./images/offers-item-7.png" alt="">
+
+                <div class="offers__content-item-title">
+                  Tomorrower
+                </div>
+                <div class="offers__content-item-subtitle">
+                  California, USA
+                </div>
+              </div>
+
+              <div class="offers__content-item">
+
+                <img class="offers__content-item__img" src="./images/offers-item-8.png" alt="">
+
+                <div class="offers__content-item-title">
+                  The Tickler
+                </div>
+                <div class="offers__content-item-subtitle">
+                  San Francisco, USA
+                </div>
+              </div>
+
+            </div>
+
+            <button class="offers-button">More Offers</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="reviews">
+    <div class="container">
+      <h3 class="reviews__title title--style">
+        Reviews
+      </h3>
+      <div class="reviews__subtitle subtitle--style">
+        customer support is our first priority
+      </div>
+      <div class="reviews__items">
+
+        <div class="reviews__item">
+          <div class="reviews__item-img">
+            <img class="reviews__item-img__inner" src="./images/reviews-1.png" alt="">
+          </div>
+          <div class="reviews__item-icon">
+            <img src="./images/reviews-vector.svg" alt="">
+          </div>
+          <div class="reviews__item-descr">
+            Duis bibendum sagittis, consectetur quam amet at. Cursus lorem dictum adipiscing auctor cra
+          </div>
+          <div class="reviews__item-name">
+            Cameron Williamson
+          </div>
+          <div class="reviews__item-prof">
+            Doctor
+          </div>
+          <div class="reviews__item-back">
+          </div>
+        </div>
+
+        <div class="reviews__item">
+          <div class="reviews__item-img">
+            <img class="reviews__item-img__inner" src="./images/reviews-2.png" alt="">
+          </div>
+          <div class="reviews__item-icon">
+            <img src="./images/reviews-vector.svg" alt="">
+          </div>
+          <div class="reviews__item-descr">
+            Vitae placerat tortor ut congue phasellus. Nunc, turpis sed commodo elit sollicitudin nisi dolor do
+          </div>
+          <div class="reviews__item-name">
+            Jacob Jones
+          </div>
+          <div class="reviews__item-prof">
+            Engineer
+          </div>
+          <div class="reviews__item-back">
+          </div>
+        </div>
+
+        <div class="reviews__item">
+          <div class="reviews__item-img">
+            <img class="reviews__item-img__inner" src="./images/reviews-3.png" alt="">
+          </div>
+          <div class="reviews__item-icon">
+            <img src="./images/reviews-vector.svg" alt="">
+          </div>
+          <div class="reviews__item-descr">
+            Habitant sollicitudin nisi, dolor metus aenean dapibus dictumst sed vel nunc, et cras vivamus
+          </div>
+          <div class="reviews__item-name">
+            Robert Fox
+          </div>
+          <div class="reviews__item-prof">
+            Busines
+          </div>
+          <div class="reviews__item-back">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="board">
+    <div class="container">
+      <div class="board__inner">
+        <div class="board__info">
+          We believe
+        </div>
+        <div class="board__phrase">
+          The best way to find yourself is to lose yourself in the service of others.
+        </div>
+        <div class="board__btn">
+          <a class="board__button">
+            Get a Quote
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-top" id="contact">
+    <div class="container">
+      <div class="footer-top__inner">
+
+        <div class="footer-top__form footer-top-colum">
+          <h3 class="footer-top__title title--style">
+            Get in touch
+          </h3>
+          <div class="footer-top__subtitle subtitle--style">
+            we are more interested in your thoughts
+          </div>
+          <form action="">
+            <p>
+              <label class="visually-hidden" for="your-name">Your full name</label>
+              <input class="feedback-name" id="your-name" name="name" type="text" placeholder="Your Full Name">
+            </p>
+
+            <p>
+              <label class="visually-hidden" for="your-email">Your email address</label>
+              <input class="feedback-email" id="your-email" name="email" type="text" placeholder="Your Email Address">
+            </p>
+
+            <p>
+              <label class="visually-hidden" for="your-comment">Your message</label>
+              <textarea class="feedback-text" id="your-comment" name="comment" type="text"
+                placeholder="Your Message"> </textarea>
+            </p>
+            <a class="form-button" href="#">Send</a>
+          </form>
+        </div>
+
+        <div class="footer-top__contact footer-top-colum">
+          <div class="footer-top__contact-wrapper">
+            <h4 class="footer-top__contact-title">Contact Us</h4>
+            <div class="footer-top__contact-ardess footer-top--date">
+              1901 Thornridge Cir. Shiloh, Hawaii 81063
+            </div>
+            <div class="footer-top__contact-email footer-top--date">
+              willie.jennings@example.com <br>
+              hellous@example.com
+            </div>
+            <div class="footer-top__contact-phone footer-top--date">
+              <p>(704) 555-0127</p>
+              <p>(704) 555-0128</p>
+            </div>
+            <ul class="footer-top__contact-socials">
+              <li class="footer-top__contact-socials__item">
+                <a href="">
+                  <img class="footer-top__facebook" src="./images/social-facebook.svg" alt="">
+                </a>
+              </li>
+
+              <li class="footer-top__contact-socials__item">
+                <a href="">
+                  <img class="footer-top__linkedin" src="./images/social-linkedin.svg" alt="">
+                </a>
+              </li>
+
+              <li class="footer-top__contact-socials__item">
+                <a href="">
+                  <img class="footer-top__twitter" src="./images/social-twitter.svg" alt="">
+                </a>
+              </li>
+
+              <li class="footer-top__contact-socials__item">
+                <a href="">
+                  <img class="footer-top__instagram" src="./images/social-instagram.svg" alt="">
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__items">
+
+        <div class="footer__item footer__item-info">
+          <div class="footer__item-logo">
+            Logo
+          </div>
+          <div class="footer__item-subtitle">
+            Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do eiusmod teor incididunt ut labore et dolore ma
+            aliquam ad minim veniam quis.
+          </div>
+          <ul class="footer__item-socials">
+            <li class="footer__item-social">
+              <a class="footer__item-facebook" href=""> <img src="./images/footer-social-fb.svg" alt=""></a>
+            </li>
+            <li class="footer__item-social">
+              <a class="footer__item-linked" href=""> <img src="./images/footer-social-in.svg" alt=""></a>
+            </li>
+            <li class="footer__item-social">
+              <a class="footer__item-twitter" href=""> <img src="./images/footer-social-tw.svg" alt=""></a>
+            </li>
+            <li class="footer__item-social">
+              <a class="footer__item-facebook" href=""> <img src="./images/footer-social-inst.svg" alt=""></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__item">
+          <h4 class="footer__item-title">Quick Links</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="">About</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Services</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Offers</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__item">
+          <h4 class="footer__item-title">Services</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="">Cars</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Roadside</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Banking</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Insurance</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Travel</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__item">
+          <h4 class="footer__item-title">Membership</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="">Benifits</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Manage Plan</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Payments</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Corporate Plan</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__item">
+          <h4 class="footer__item-title">Support</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="">Live Support</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Contact Us</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Company</a>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="footer__info">
+      <div class="footer__info-left">
+        © 2020 — 2022
+      </div>
+      <div class="footer__info__right">
+        Privacy — Terms
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script> 
+
+  <!--Используем jquery.min (через CDN)-->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
